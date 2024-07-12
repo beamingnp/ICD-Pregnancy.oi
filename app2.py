@@ -30,7 +30,7 @@ def about():
 
 @app.route('/download_pdf')
 def download_pdf():
-    return send_file('C:\\Users\\Asus\\Desktop\\term 6 exam\\test2\\book-3-pregnancy.pdf', as_attachment=True)
+    return send_file('book-3-pregnancy.pdf', as_attachment=True)
 
 @app.route('/search_code', methods=['POST'])
 def search_code():

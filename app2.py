@@ -5,7 +5,7 @@ from collections import defaultdict
 app = Flask(__name__)
 
 # Load the Excel file once when the app starts
-workbook = openpyxl.load_workbook('C:\\Users\\Asus\\Desktop\\term 6 exam\\test2\\pregnancy1.xlsx')
+workbook = openpyxl.load_workbook('https://github.com/beamingnp/ICD-Pregnancy.oi/blob/2205a92ccdece5436ffbb043adb0f6beb54de25b/pregnancy1.xlsx')
 sheet = workbook.active
 data = defaultdict(str)
 
